@@ -1,0 +1,66 @@
+body {
+  background-color: slateblue;
+}
+h1 {
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.increase, .decrease {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding: 0 5px 5px 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: solid 3px purple;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: violet;
+  font-style: inherit;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+}
+#output {
+  display: inline;
+  padding-left: 15px;
+  font-weight: bold;
+  font-style: initial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.bio {
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: fantasy;
+  color: lightgreen;
+  text-align: center;
+}
+.do {
+  display: inline;
+  padding-right: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#full {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.refresh {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 5px 5px 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+  border: solid 3px purple;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: violet;
+  font-style: inherit;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  display: block;
+}
+hr {
+  border-color: limegreen;
+}
