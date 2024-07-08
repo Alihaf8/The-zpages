@@ -12,13 +12,14 @@ h1 {
   padding: 0 5px 5px 5px;
   font-family: sans-serif;
   font-size: 16px;
-  border: solid 3px purple;
+  border: solid 3px darkorchid;
   background-color: blueviolet;
   border-radius: 20px;
   color: violet;
   font-style: inherit;
   font-family: 'Courier New', Courier, monospace;
   font-weight: lighter;
+  box-shadow: 0 5px rebeccapurple;
 }
 #output {
   display: inline;
@@ -52,7 +53,7 @@ h1 {
   padding: 0 5px 5px 5px;
   font-family: sans-serif;
   font-size: 17px;
-  border: solid 3px purple;
+  border: solid 3px darkorchid;
   background-color: blueviolet;
   border-radius: 20px;
   color: violet;
@@ -60,7 +61,16 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   font-weight: lighter;
   display: block;
+  box-shadow: 0 5px rebeccapurple;
 }
 hr {
   border-color: limegreen;
+}
+.increase:hover, .decrease:hover, .refresh:hover {
+  background-color: blueviolet;
+}
+.increase:active, .decrease:active, .refresh:active {
+  background-color: blueviolet;
+  box-shadow: 0 3px rebeccapurple;
+  transform: translateY(3px);
 }
